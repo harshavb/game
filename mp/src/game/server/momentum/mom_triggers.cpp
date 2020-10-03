@@ -442,6 +442,7 @@ LINK_ENTITY_TO_CLASS(trigger_momentum_teleport, CTriggerMomentumTeleport);
 BEGIN_DATADESC(CTriggerMomentumTeleport)
     DEFINE_KEYFIELD(m_bResetVelocity, FIELD_BOOLEAN, "stop"),
     DEFINE_KEYFIELD(m_bResetAngles, FIELD_BOOLEAN, "resetang"),
+    DEFINE_KEYFIELD(m_bFail, FIELD_BOOLEAN, "fail"),
 END_DATADESC()
 
 void CTriggerMomentumTeleport::OnStartTouch(CBaseEntity *pOther)

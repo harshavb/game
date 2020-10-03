@@ -283,6 +283,7 @@ public:
 private:
     bool m_bResetVelocity;
     bool m_bResetAngles;
+    bool m_bFail;
     EHANDLE m_hDestinationEnt;
 };
 
